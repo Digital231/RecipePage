@@ -1,0 +1,13 @@
+body {
+  background-color: cadetblue;
+}
+
+.card {
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: transform 0.2s;
+}
